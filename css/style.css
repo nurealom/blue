@@ -1,0 +1,199 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-color: #121B2C;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 16%;
+	float: left;
+	margin-top: 12px;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+	margin-top: 45px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 0 25px;
+	display: block;
+	text-transform: uppercase;
+}
+.menu ul li:last-child a{
+	padding: 0	;
+}
+.banner {
+	background-image: url(../images/banner-image.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.text-area {
+	width: 50%;
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+.text-area h1{
+	color: white;
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+.text-area h2{
+	color: red;
+	font-size: 45px;
+	margin-top: 0;
+	margin-bottom: 0; 
+}
+.text-area p{
+	color: white;
+}
+.text-area button {
+	font-size: 13px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    color: black;
+}
+.text-area button  i{
+	margin-left: 14px;
+}
+.services {
+	background-color: #121B2C;
+	padding: 45px 0;
+}
+.single{
+	width: 29%;
+	padding: 0 20px;
+	float: left;
+	border-right: 1px solid #172032;
+}
+.single:last-child{
+	border-right: none;
+}
+.single-title{
+	overflow: hidden;
+}
+.s-image{
+	width: 20%;
+	float: left;
+}
+.s-image img{
+	width: 100%;
+}
+.s-head{
+	width: 70%;
+	float: left;	
+}
+.s-head h1{
+	color: white;
+	font-size: 25px;
+	font-weight: 400;
+	margin: 5px 0;
+}
+.s-head h2{ 
+	color: #165D8E;
+	font-size: 25px;
+	font-weight: 400;
+	margin: 5px 0;
+}
+.single-text p{
+	color: white;
+}
+.testimonial{
+	background-color: #03060F;
+	padding: 41px 0;
+}
+.ocen-edge{
+	width: 28%;
+	float: left;
+	margin-left: 34px;
+}
+.ocen-edge h1{
+	color: white;	
+}
+.ocen-edge span{
+	color: blue;	
+}
+.ocen-edge address{
+	color: white;	
+}
+.customer-testomonial{
+	color: white;
+	width: 31%;
+	float: left;
+	margin-right: 30px;
+}
+.customer-testomonial span{
+	color: blue;
+}
+.customer-testomonial h2{
+	margin-bottom: 0px;
+}
+.customer-testomonial a{
+	text-decoration: none;
+	color: white;
+}
+footer {
+    background-color: #111A2B;
+}
+.footer-menu{
+	width: 60%;
+	float: left;
+	margin-left: -90px;
+	    padding-top: 29px;
+    padding-bottom: 30px;
+}
+.footer-image {
+    width: 35%;
+    float: right;
+    padding-top: 32px;
+}
+.navbar{
+
+}
+.navbar ul{
+	float: right;
+}
+.navbar ul li{
+	list-style: none;
+	float: left;
+}
+.navbar ul li a{
+	font-size: 10px;
+	text-decoration: none;
+	color: white;
+	padding: 0 20px;
+	display: block;
+	text-transform: uppercase;
+
+}
+.footer-image{
+	width: 40%;
+    float: right;
+}
+.footer-image img{
+	float: right;
+}
+.copyright p{
+	margin-left: 91px;
+    color: white;
+    font-size: 15px;
+}
